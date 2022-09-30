@@ -2,9 +2,9 @@ version: 2.1
 
 jobs:
   build-and-test:
-    docker:
-    - image: cimg/node:12.16
-    parallelism: 5
+    machine: true
+    resource_class: catherinepope/docker
+    parallelism: 2
     steps:
     - checkout
     - run:
