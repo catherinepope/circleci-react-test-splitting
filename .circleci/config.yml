@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build-and-test:
     machine: true
-    resource_class: catherinepope/aws
+    resource_class: catherinepope/ca
     parallelism: 2
     steps:
     - checkout
