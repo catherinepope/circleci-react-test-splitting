@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build-and-test:
     docker:
-      - image: cimg/base:2021.11
+      - image: cimg/node:18.10.0
     resource_class: catherinepope/ca
     parallelism: 2
     steps:
